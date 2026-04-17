@@ -1,3 +1,12 @@
+'''
+Module      : Main
+Description : The main entry point for the program.
+Copyright   : (c) Khalid Mahmood, 17 April 2026 
+License     : MIT 
+Contact  : Khalid Mahmood 
+
+'''
+
 import pysam
 import argparse
 from collections import Counter
