@@ -3,6 +3,19 @@ A tool counts soft-clip reads per position across a region of interest by parsin
 
 The tools is written in Python and utilizes the [pysam](https://pysam.readthedocs.io/en/latest/api.html) library.
 
+# Documentation
+
+TODO installation and usage.
+
+# Examples
+
+### Simple usage
+
+```bash
+python breakpoint_counter.py -b <input.bam> -i <region.bed>
+```
+
+
 # Authors
 
  * Khalid Mahmood
