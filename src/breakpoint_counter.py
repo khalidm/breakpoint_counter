@@ -30,7 +30,13 @@ def count_softclips(bam_path, bed_path, min_mq, min_bq):
 
         # Fetch reads overlapping the interval
         for read in samfile.fetch(chrom, start, end):
+            
             # 1. Quality Filters
+            # if (read.mapping_quality >= min_mq and 
+            #         not read.is_unmapped and 
+            #         not read.is_secondary and 
+            #         not read.is_supplementary and 
+            #         read.is_proper_pair):
             if read.mapping_quality < min_mq or read.is_unmapped:
                 continue
 
