@@ -7,14 +7,33 @@ The tools is written in Python and utilizes the [pysam](https://pysam.readthedoc
 
 TODO installation and usage.
 
-# Examples
+### Installation
+
+Clone this repository
+
+```bash
+git clone https://github.com/khalidm/breakpoint_counter
+```
+
+Change path to the repository directory
+
+```bash
+cd gurita
+```bash
+
+Using Python 3 breakpoint_counter can be installed using pip inside a virtual environment.
+
+```bash
+python3 -m venv breakpoint_counter_env
+source breakpoint_counter_env/bin/activate
+pip install -U /path/to/breakpoint_counter
+```
 
 ### Simple usage
 
 ```bash
 python breakpoint_counter.py -b <input.bam> -i <region.bed> > breakpoint_counts.txt
 ```
-
 
 # Authors
 
