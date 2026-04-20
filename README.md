@@ -18,7 +18,7 @@ git clone https://github.com/khalidm/breakpoint_counter
 Change path to the repository directory
 
 ```bash
-cd gurita
+cd breakpoint_counter
 ```
 
 Using Python 3 breakpoint_counter can be installed using pip inside a virtual environment.
