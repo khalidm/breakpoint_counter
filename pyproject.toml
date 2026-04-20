@@ -31,5 +31,5 @@ breakpoint_counter = "breakpoint_counter.breakpoint_counter:main"
 [project.urls]
 "Homepage" = "https://github.com/khalidm/breakpoint_counter"
 "Bug Tracker" = "https://github.com/khalidm/breakpoint_counter/issues"
-// docs = "https://bjpop.github.io/gurita/index.html"
-// documentation = "https://bjpop.github.io/gurita/index.html"
+# docs = "https://bjpop.github.io/gurita/index.html"
+# documentation = "https://bjpop.github.io/gurita/index.html"
