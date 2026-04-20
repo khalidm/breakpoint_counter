@@ -71,7 +71,7 @@ def count_softclips(bam_path, bed_path, min_mq, min_bq):
     samfile.close()
     bedfile.close()
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Count breakpoints based on soft-clipped reads per position.")
     parser.add_argument("-b", "--bam", required=True, help="Input BAM file")
     parser.add_argument("-i", "--bed", required=True, help="Input BED file (intervals)")
@@ -80,3 +80,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     count_softclips(args.bam, args.bed, args.min_mq, args.min_bq)
+
+# If this script is run from the command line then call the main function.
+if __name__ == '__main__':
+    main()
